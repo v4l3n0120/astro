@@ -1,0 +1,32 @@
+---
+//este codigo es solo para el script dev
+
+const title = 'este es el index'
+const hobbies = ['Programar', 'Leer', 'Escribir', 'Nadar', 'Hacer streaming', 'viajar', 'comer' ]
+---
+
+<h1 class="title"> {title} </h1>
+
+<ul>
+	{hobbies.map(hobby => <li><h3>{hobby}</h3><button>me gusta</button></li>)}
+</ul>
+
+
+<script>
+	console.log('hola funciona el script!')
+</script>
+
+<style>
+	body{
+		background: burlywood;
+		color: black;
+	}
+.title{
+	color: brown;
+	font-family: 'Courier new', courier, monospace;
+}
+.text{
+	color: crimson;
+	font-family: 'Gill sans', 'Gill Sans MT', calibri, 'Trebuchet MS', sans-serif;
+}
+</style>
